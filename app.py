@@ -3,7 +3,7 @@ import openai
 from datetime import date
 
 # Get today's date (string)
-today = date.today().strftime("%B %d, %Y")
+today = date.today().strftime("%A, %B %d, %Y")
 
 # OpenRouter API base and key
 openai.api_base = "https://openrouter.ai/api/v1"

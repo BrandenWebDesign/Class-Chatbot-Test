@@ -13,7 +13,7 @@ st.title("AI Chatbot")
 
 # Code for input form
 with st.form("chat_form"):
-    user_input = st.text_input("Ask Anything:")
+    user_input = st.text_input("Ask anything:")
     submitted = st.form_submit_button("Get Response")
 
 if submitted and user_input:

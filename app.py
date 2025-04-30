@@ -9,7 +9,7 @@ today = date.today().strftime("%B %d, %Y")
 openai.api_base = "https://openrouter.ai/api/v1"
 openai.api_key = st.secrets["openrouter_key"]
 
-st.title("Ask Chatbot")
+st.title("Ask AI Chatbot")
 
 # Code for input form
 with st.form("chat_form"):

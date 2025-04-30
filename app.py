@@ -12,7 +12,7 @@ with st.form("chat_form"):
 
 if submitted and user_input:
     response = openai.ChatCompletion.create(
-        model="mistral-7b",
+        model="mistralai/mistral-7b-instruct:free",
         messages=[
             {"role": "user", "content": user_input}
         ]
